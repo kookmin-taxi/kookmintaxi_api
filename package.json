@@ -11,8 +11,11 @@
     "debug": "~2.6.0",
     "ejs": "~2.5.5",
     "express": "~4.14.1",
+    "htmlparser": "^1.7.7",
     "mongoose": "^4.8.3",
     "morgan": "~1.7.0",
+    "rand-token": "^0.3.0",
+    "request": "^2.79.0",
     "serve-favicon": "~2.3.2"
   }
 }
