@@ -21,8 +21,8 @@ Input
 
 ```json
 {
-	"id":2017****,
-	"pw":ad******
+	"id":"2017****",
+	"pw":"ad******"
 }
 ```
 
@@ -42,8 +42,8 @@ Input
 
 ```json
 {
-	"id":20163088, //ktis 국민대ID
-	"name":kookminTest,
+	"id":20163088, 
+	"name":"kookminTest",
 	"gender":"male",
 	"phone":"0105068****",
 	"grade":3
@@ -68,8 +68,8 @@ Input
 
 ```json
 {
-	"id":2017****,
-	"pw":ad******
+	"id":"2017****",
+	"pw":"ad******"
 }
 ```
 
@@ -92,7 +92,7 @@ Input
 
 ```json
 {
-	"access_token":7asfh83ha
+	"access_token":"7asfh83ha"
 }
 ```
 
@@ -101,7 +101,6 @@ Output
 ```json
 {
   "status": true
-  //정상적인 큐 등록이 완료되었을 때
 }
 ```
 
@@ -113,7 +112,7 @@ Input
 
 ```json
 {
-	"access_token":7asfh83ha
+	"access_token":"7asfh83ha"
 }
 ```
 
@@ -122,7 +121,6 @@ Output
 ```json
 {
   "status": true
-  //정상적으로 등록이 완료되었을 때
 }
 ```
 
@@ -133,7 +131,7 @@ Input
 
 ```json
 {
-	"access_token":7asfh83ha
+	"access_token":"7asfh83ha"
 }
 ```
 
@@ -152,9 +150,9 @@ Output
       }
     ],
     "users_count": 1,
-    "activation": false, //activation은 마감버튼이 눌렸을때
-    "activation_count": 0, //activation_count는 투표수(전부 투표하면 done상태)
-    "done": false //탑승모집이 마감된경우 true로 변환
+    "activation": false, 
+    "activation_count": 0, 
+    "done": false
   }
 }
 ```
@@ -173,7 +171,7 @@ Input
 
 ```json
 {
-	"access_token":7asfh83ha
+	"access_token":"7asfh83ha"
 }
 ```
 
@@ -182,7 +180,6 @@ Output
 ```json
 {
   "status": true
-  //정상적으로 등록이 완료되었을 때
 }
 ```
 
